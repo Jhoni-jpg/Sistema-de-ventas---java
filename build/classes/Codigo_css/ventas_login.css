@@ -1,0 +1,81 @@
+.mainFxmlClass {
+
+}
+
+.popup-label {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+}
+
+
+#stack_pane {
+    -fx-background-image: url("/img/abstract-technology-digital-futuristic-concept-blue-and-pink-neon-colors-lighting-effect-motion-decoration-geometric-shapes-elements-vector.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+#PanelLoginComponent {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-radius: 30px;
+    -fx-border-color: black;
+    -fx-border-width: 0.7px;
+    -fx-border-radius: 30px;
+}
+
+#prueba {
+    -fx-border-width: 0px;
+}
+
+#TMostrarConfirmar {
+    -fx-border-width: 0px;
+}
+
+#TMostrarRegistrar {
+    -fx-border-width: 0px;
+}
+
+.TextF_Login {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 30px;
+}
+
+#password_login {
+    -fx-border-width: 0px;
+}
+
+#TConfirmar_Contrasena {
+    -fx-border-width: 0px;
+}
+
+#TContrasena_Registrar {
+    -fx-border-width: 0px;
+}
+
+.LTextoLogin {
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(244, 254, 253, 0.5), 15, 0.5, 2, 2);
+    -fx-font-size: 15px;
+}
+
+#TRegistrar_Login  {
+    -fx-text-fill: white;
+}
+
+#TRegistrar_Login:hover {
+    -fx-cursor: hand;
+}
+
+#TRecuperar_Login {
+    -fx-text-fill: white;
+}
+
+#TRecuperar_Login:hover {
+    -fx-cursor: hand;
+}

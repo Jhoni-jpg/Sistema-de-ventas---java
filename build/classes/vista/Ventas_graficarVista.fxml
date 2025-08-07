@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.Ventas_graficarVistaController">
+   <children>
+      <Pane fx:id="panel_principal" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="img_graficar" fitHeight="417.0" fitWidth="620.0" layoutX="-10.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/fundo-abstrato-com-ondas-de-neon_53876-101942.jpg" />
+               </image>
+               <effect>
+                  <BoxBlur iterations="3" />
+               </effect>
+            </ImageView>
+            <Pane layoutX="163.0" layoutY="28.0" prefHeight="256.0" prefWidth="275.0" styleClass="Panel_Graficar">
+               <children>
+                  <DatePicker focusTraversable="false" layoutX="50.0" layoutY="146.0" prefHeight="27.0" prefWidth="176.0" promptText="Fecha fin" styleClass="elegir_fecha" />
+                  <DatePicker focusTraversable="false" layoutX="50.0" layoutY="86.0" prefHeight="27.0" prefWidth="176.0" promptText="Fecha inicio" styleClass="elegir_fecha" />
+                  <Label fx:id="label_titulo" layoutX="70.0" layoutY="14.0" text="Seleccione para graficar" />
+                  <RadioButton layoutX="27.0" layoutY="207.0" mnemonicParsing="false" styleClass="Label_Radios" text="Barras" />
+                  <RadioButton alignment="CENTER_RIGHT" layoutX="200.0" layoutY="207.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" styleClass="Label_Radios" text="Pastel" />
+               </children>
+            </Pane>
+            <Pane layoutX="112.0" layoutY="317.0" prefHeight="55.0" prefWidth="377.0" styleClass="Panel_Graficar">
+               <children>
+                  <JFXButton layoutX="257.0" layoutY="15.0" prefHeight="25.0" prefWidth="77.0" styleClass="BT_Componentes" text="Graficar" />
+                  <JFXButton layoutX="41.0" layoutY="15.0" prefHeight="25.0" prefWidth="77.0" styleClass="BT_Componentes" text="Cancelar" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

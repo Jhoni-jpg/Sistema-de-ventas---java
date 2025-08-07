@@ -1,0 +1,57 @@
+.Panel_Graficar {
+    -fx-background-color: rgba(0, 0, 0, 0.4);
+    -fx-background-radius: 30;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}
+
+.elegir_fecha {
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+}
+
+.elegir_fecha > .text-field {
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: lightgrey;
+    -fx-background-color: transparent;
+    -fx-background-radius: 30 0 0 30;
+}
+
+.elegir_fecha > .arrow-button {
+    -fx-background-radius: 0 30 30 0;
+}
+
+.labelT_fecha {
+    -fx-text-fill: white;
+    -fx-background-color: white;
+}
+
+#label_titulo {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, white, 10, 0.1, 2, 2);
+    -fx-font: normal bold 12px System;
+}
+
+.BT_Componentes {
+    -fx-background-color: radial-gradient(
+        center 50% 50%, radius 50%,
+        #FFFFFF, #FFFFFF, #E8E8E8, #CECECE
+        );
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, white, 10, 0.1, 0, 0);
+    -fx-font: normal bold 12px System;
+}
+
+.BT_Componentes:pressed {
+    -fx-effect: unset;
+    -fx-effect: innershadow(gaussian, gray, 10, 0.5, 2, 2);
+}
+
+.Label_Radios {
+    -fx-font: normal bold 12px System;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, white, 6, 0.2, 0, 0);
+}

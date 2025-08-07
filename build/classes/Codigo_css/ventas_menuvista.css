@@ -1,0 +1,322 @@
+.Anchor_PanelPrincipal {
+    -fx-background-color: linear-gradient(
+        to right,
+        rgba(131,191,241, 0.4) 1%, white 20%);
+}
+
+#Panel_CajaVertical {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0.3, 2, 2);
+    -fx-background-radius: 0px 30px 30px 0px;
+    -fx-background-color: #4F75FF;
+}
+
+#PanelSuperior {
+    -fx-background-color: linear-gradient(
+        to left,
+        #4F75FF 50%, #8BDDFD 100%
+        );
+}
+
+#ComponentesCaja_Vertical {
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 37;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+}
+
+#ComponentesCajaHorizontal {
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 15;
+    -fx-font-weight: bold;
+    -fx-fill: black;
+}
+
+#Salir_Img:hover {
+    -fx-cursor: hand;
+}
+
+#Label_Menu {
+    -fx-text-fill: black;
+}
+
+#Label_Menu:hover {
+    -fx-cursor: hand;
+}
+
+.Label_ItemBT {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 6, 0.3, -2, 2);
+    -fx-background-color: transparent;
+    -fx-alignment: BASELINE_LEFT;
+    -fx-text-fill: white;
+}
+
+.Label_ItemBT:hover {
+    -fx-effect: innershadow(gaussian, rgba(0,0,0, 0.4), 6, 0.3, -2, 2);
+    -fx-background-color: rgba(79, 117, 255, 0.4);
+    -fx-background-radius: 0 8 8 0;
+    -fx-text-fill: black;
+    -fx-border-color: white;
+    -fx-border-width: 0px 0px 0px 2px;
+}
+
+.Label_ItemBT:pressed {
+    -fx-effect: unset;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.4, 2, 2);
+}
+
+#Menu_Boton .menu-item {
+    -fx-background-color: linear-gradient(to left,
+        #FFFFFF 20%, #CECECE 100%
+        );
+    -fx-font: italic bold 12px System;
+    -fx-padding: 5;
+
+}
+
+#Menu_Boton .menu-item:focused {
+    -fx-effect: innershadow(gaussian, grey, 10, 0.4, 0, 0);
+}
+
+.Label_ItemBTSuperior {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(244,254,253, 0.4), 6, 0.3, -2, 2);
+    -fx-alignment: baseline-center;
+}
+
+.Label_ItemBTSuperior:hover {
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+#Label_Cerrar {
+    -fx-text-fill: black;
+}
+
+#Label_Cerrar:hover {
+    -fx-cursor: hand;
+}
+
+#Panel_HorizontalSuperior {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0, 0.4), 6, 0.3, -2, 2);
+    -fx-border-color: dark;
+}
+
+#PanelPosterior_CajaHorizontal {
+    -fx-background-color: transparent;
+}
+
+#GridPanel {
+    -fx-background-color: linear-gradient(
+        to right,
+        white 5%, #7CF5FF 100%
+        );
+}
+
+.TextF_Componente {
+    -fx-background-color: transparent;
+    -fx-text-fill: grey;
+    -fx-border-width: 1px;
+    -fx-border-color: grey;
+    -fx-highlight-fill: lightblue;
+    -fx-border-radius: 30px;
+}
+
+.TextF_Componente:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0.3, 0, 0);
+}
+
+.Panel_Componentes {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0.3, 0, 2);
+    -fx-background-radius: 15px;
+    -fx-border-color: grey;
+    -fx-border-radius: 15px;
+    -fx-border-width: 1px;
+}
+
+.Label_ComponenteF {
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255,0.4), 6, 0.3, -2, 2);
+}
+
+.Combo_Componentes {
+    -fx-background-color: transparent;
+    -fx-border-color: grey;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-font: normal bold 12px System;
+
+}
+
+.Combo_Componentes .arrow {
+    -fx-background-color: gray;
+}
+
+.Combo_Componentes .arrow-button {
+    -fx-border-color: gray;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-radius: 5 0 0 5;
+}
+
+.Combo_Componentes:hover {
+    -fx-border-color: black;
+}
+
+.Combo_Componentes:focused {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0.3, 0, 0);
+}
+
+.Tabla_Panel {
+    -fx-background-radius: 0 0 15 15;
+    -fx-border-color: grey;
+    -fx-border-radius: 0 0 15 15;
+    -fx-text-alignment: center;
+    -fx-wrap-text: true;
+}
+
+.Tabla_Panel:filled {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell {
+    -fx-background-color: darkgrey;
+    -fx-text-fill: white;
+}
+
+.table-view .table-row-cell {
+    -fx-border-color: black;
+    -fx-border-width: 1;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: grey;
+}
+
+.Tabla_Panel .table-row-cell:selected {
+    -fx-background-color: lightblue;
+    -fx-opacity: 0.5;
+}
+
+.table-view .column-header {
+    -fx-background-color: #8BDDFD;
+    -fx-border-color: grey;
+    -fx-border-width: 0 0 1 0;
+    -fx-pref-height: 30px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: black;
+    -fx-font-size: 13px;
+    -fx-alignment: center;
+}
+
+.BT_Componente {
+    -fx-background-color: #8BDDFD;
+    -fx-text-fill: white;
+    -fx-font: normal bold 12px Sytem;
+    -fx-background-radius: 5;
+    -fx-pref-width: 75;
+    -fx-pref-height: 30;
+    -fx-effect: dropshadow(gaussian, #8BDDFD, 10, 0.5, 0, 0);
+}
+
+.BT_Componente:hover {
+    -fx-cursor: hand;
+}
+
+.BT_Componente:pressed {
+    -fx-opacity: 0.5;
+}
+
+#Spinner_Cantidad {
+    -fx-border-color: gray;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+#Spinner_Cantidad .increment-arrow-button {
+    -fx-body-color: white;
+}
+
+#Spinner_Cantidad .decrement-arrow-button {
+    -fx-body-color: white;
+}
+
+#Spinner_Cantidad .increment-arrow-button:hover, #Spinner_Cantidad .decrement-arrow-button:hover {
+    -fx-opacity: 0.5;
+}
+
+#Spinner_Cantidad .increment-arrow-button:pressed, #Spinner_Cantidad .decrement-arrow-button:pressed {
+    -fx-opacity: 1;
+}
+
+#Spinner_Cantidad .increment-arrow, #Spinner_Cantidad .decrement-arrow {
+    -fx-background-color: gray;
+
+}
+
+.TextA_Componente {
+    -fx-background-color: transparent;
+    -fx-highlight-fill: lightblue;
+    -fx-font: italic bold 12px System;
+}
+
+.TextA_Componente .content {
+    -fx-border-color: grey;
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+    -fx-padding: 10;
+}
+
+.TextA_Componente:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0.3, 0, 0);
+}
+
+.TextA_Componente:focused {
+    -fx-effect: innershadow(gaussian, grey, 10, 0.4, 0, 0);
+}
+
+.Acercar_Cursor {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 6, 0.5, 0, 2);
+    -fx-font: normal bold 15px System;
+    ;
+}
+
+#Label_AcercarCursor {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 6, 0.5, 0, 0);
+}
+
+#Menu_Reportes {
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 6, 0.3, -2, 2);
+    -fx-alignment: BASELINE_LEFT;
+}
+
+#Menu_Reportes:hover {
+    -fx-background-color: rgba(79, 117, 255, 0.4);
+    -fx-background-radius: 0 8 8 0;
+    -fx-border-width: 0 0 0 2;
+    -fx-border-color: white;
+}
+
+.menu-bar {
+    -fx-background-color: #2C3E50;
+    -fx-border-width: 2px;
+    -fx-border-color: #34495E;
+    -fx-opacity: 0.9;
+}
+
+.menu-item {
+    -fx-padding: 10px;
+    -fx-text-fill: black;
+}
+
+.menu-item:hover {
+    -fx-background-color: lightblue;
+}
+
+.menu-item:focused {
+    -fx-background-color: lightblue;
+}
